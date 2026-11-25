@@ -40,7 +40,7 @@ export function CommercialPage() {
         title="Commercial Spaces. Engineered for Enterprise."
         subtitle="Grade-A corporate office towers, high-street retail promenades, and strategic business land parcels designed to elevate enterprise presence."
         breadcrumbs={[{ label: 'Home', href: '/' }]}
-        bgImage="https://images.unsplash.com/photo-1486406146926-c6cafa27b0fc?auto=format&fit=crop&w=2000&q=80"
+        bgImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80"
       />
 
       {/* Commercial Asset Types Overview */}

@@ -21,6 +21,7 @@ const CATEGORIES = [
     desc: 'High-Rise Sky Suites',
     href: '/residential',
     icon: Building2,
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80',
   },
   {
     label: 'Residential Plots',
@@ -28,6 +29,7 @@ const CATEGORIES = [
     desc: 'Gated Freehold Land',
     href: '/residential',
     icon: MapPin,
+    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80',
   },
   {
     label: 'Independent Homes & Villas',
@@ -35,6 +37,7 @@ const CATEGORIES = [
     desc: 'Bespoke Private Mansions',
     href: '/residential',
     icon: Home,
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80',
   },
   {
     label: 'Ready-to-Move Properties',
@@ -42,6 +45,7 @@ const CATEGORIES = [
     desc: 'Immediate Possession & OC',
     href: '/residential',
     icon: KeyRound,
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80',
   },
   {
     label: 'Commercial Properties',
@@ -49,6 +53,7 @@ const CATEGORIES = [
     desc: 'Enterprise Tech Parks',
     href: '/commercial',
     icon: Building,
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
   },
   {
     label: 'Office Spaces',
@@ -56,6 +61,7 @@ const CATEGORIES = [
     desc: 'Grade-A Corporate Suites',
     href: '/commercial',
     icon: Briefcase,
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
   },
   {
     label: 'Retail & Commercial Shops',
@@ -63,6 +69,7 @@ const CATEGORIES = [
     desc: 'High-Footfall Promenades',
     href: '/commercial',
     icon: Store,
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80',
   },
   {
     label: 'Investment Properties',
@@ -70,6 +77,7 @@ const CATEGORIES = [
     desc: '8-9% Pre-Leased Returns',
     href: '/investment',
     icon: TrendingUp,
+    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=800&q=80',
   },
 ];
 
@@ -79,7 +87,7 @@ export function Hero() {
       {/* Background image with cinematic overlay */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1613492390611-a14a3a0fc6f6?auto=format&fit=crop&w=2400&q=80"
+          src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=2400&q=80"
           alt="Modern luxury villa at dusk with warm golden interior lighting"
           className="h-full w-full object-cover object-center"
           loading="eager"
@@ -173,34 +181,58 @@ export function Hero() {
             </div>
           </div>
 
-          {/* 8-Card Grid with Generous Gaps & Distinct Cards */}
-          <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4">
+          {/* 8-Card Grid: Visual Luxury Photo Cards with Real Imagery */}
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
             {CATEGORIES.map((cat) => {
               const Icon = cat.icon;
               return (
                 <Link
                   key={cat.label}
                   to={cat.href}
-                  className="group flex items-center gap-3.5 rounded-2xl border border-navy-700/80 bg-navy-800/80 p-3.5 transition-all duration-300 hover:border-gold-300/60 hover:bg-navy-700/80 hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(224,176,100,0.18)]"
+                  className="group relative flex flex-col overflow-hidden rounded-2xl border border-navy-700/80 bg-navy-800/90 shadow-lg transition-all duration-300 hover:-translate-y-1.5 hover:border-gold-300/80 hover:shadow-[0_12px_32px_rgba(224,176,100,0.25)]"
                 >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold-300/10 text-gold-300 transition-all duration-300 group-hover:scale-110 group-hover:bg-gold-300 group-hover:text-navy-900 shadow-sm">
-                    <Icon size={20} />
+                  {/* Photo with Overlay */}
+                  <div className="relative h-36 w-full overflow-hidden bg-navy-950 sm:h-40">
+                    <img
+                      src={cat.image}
+                      alt={cat.label}
+                      loading="lazy"
+                      className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/40 to-transparent" />
+
+                    {/* Segment Badge */}
+                    <div className="absolute left-3 top-3">
+                      <span className="rounded-full border border-gold-300/40 bg-navy-900/85 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-gold-300 backdrop-blur-md shadow-sm">
+                        {cat.segment}
+                      </span>
+                    </div>
+
+                    {/* Floating Icon Pill */}
+                    <div className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-lg bg-navy-900/80 text-gold-300 backdrop-blur-md transition-transform duration-300 group-hover:scale-110 group-hover:bg-gold-300 group-hover:text-navy-900 shadow">
+                      <Icon size={16} />
+                    </div>
                   </div>
-                  <div className="min-w-0 flex-1">
-                    <div className="text-[10px] font-semibold uppercase tracking-wider text-gold-300/80">
-                      {cat.segment}
+
+                  {/* Card Content Footer */}
+                  <div className="flex flex-1 flex-col justify-between p-4">
+                    <div>
+                      <div className="font-serif text-base font-semibold text-ivory transition-colors group-hover:text-gold-200">
+                        {cat.label}
+                      </div>
+                      <div className="mt-1 text-xs text-mist/70">
+                        {cat.desc}
+                      </div>
                     </div>
-                    <div className="text-sm font-semibold text-ivory group-hover:text-gold-200 transition-colors truncate">
-                      {cat.label}
-                    </div>
-                    <div className="text-[11px] text-mist/60 truncate mt-0.5">
-                      {cat.desc}
+
+                    <div className="mt-3 flex items-center justify-between border-t border-navy-700/60 pt-2.5 text-xs font-semibold text-gold-300">
+                      <span>Explore Collection</span>
+                      <ArrowRight
+                        size={14}
+                        className="transition-transform duration-300 group-hover:translate-x-1.5"
+                      />
                     </div>
                   </div>
-                  <ArrowRight
-                    size={15}
-                    className="shrink-0 text-mist/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold-300"
-                  />
                 </Link>
               );
             })}

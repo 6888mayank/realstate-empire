@@ -42,7 +42,7 @@ const PROPERTIES: Property[] = [
     price: '₹14.5 Cr onwards',
     status: 'New Launch',
     image:
-      'https://images.unsplash.com/photo-1613977257363-fce7ac12c4f5?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80',
   },
   {
     name: 'The Crest Retail Promenade',
@@ -52,7 +52,7 @@ const PROPERTIES: Property[] = [
     price: '₹1.85 Cr onwards',
     status: 'Under Construction',
     image:
-      'https://images.unsplash.com/photo-1567521464026-f4e5346411c0?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1200&q=80',
   },
   {
     name: 'The Aurelia Sky Residences',
@@ -72,7 +72,7 @@ const PROPERTIES: Property[] = [
     price: 'Price on Request',
     status: 'New Launch',
     image:
-      'https://images.unsplash.com/photo-1497366811353-67807737656c?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 

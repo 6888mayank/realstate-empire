@@ -6,7 +6,7 @@ const COMMERCIAL = [
   {
     title: 'Commercial Buildings',
     desc: 'Iconic commercial towers built for enterprise presence and long-term value.',
-    image: 'https://images.unsplash.com/photo-1486406146926-c6cafa27b0fc?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Office Spaces',
@@ -21,7 +21,7 @@ const COMMERCIAL = [
   {
     title: 'Business Spaces',
     desc: 'Flexible business environments tailored to growing enterprises.',
-    image: 'https://images.unsplash.com/photo-1497366811353-67807737656c?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Commercial Plots',

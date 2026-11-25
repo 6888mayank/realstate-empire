@@ -15,7 +15,7 @@ export function InvestmentPage() {
         title="Real Estate Investment & Wealth Preservation"
         subtitle="Institutional-grade asset selection, pre-leased commercial yields, and strategic land banking opportunities tailored for discerning private investors and family offices."
         breadcrumbs={[{ label: 'Home', href: '/' }]}
-        bgImage="https://images.unsplash.com/photo-1486406146926-c6cafa27b0fc?auto=format&fit=crop&w=2000&q=80"
+        bgImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80"
       />
 
       {/* Investment Framework */}

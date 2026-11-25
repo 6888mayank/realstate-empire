@@ -19,7 +19,7 @@ export function LocationsPage() {
         title="Gurugram Hub & Strategic Expansion Pipeline"
         subtitle="AVYAAVATI REALTORS is actively operational with on-ground expertise in Gurugram (Delhi-NCR), with future scope identified for high-growth Indian metros."
         breadcrumbs={[{ label: 'Home', href: '/' }]}
-        bgImage="https://images.unsplash.com/photo-1567521464026-f4e5346411c0?auto=format&fit=crop&w=2000&q=80"
+        bgImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80"
       />
 
       {/* Corporate Base Callout */}

@@ -47,7 +47,7 @@ export function ResidentialPage() {
         title="Curated Homes & Living Sanctuaries"
         subtitle="Explore thoughtfully designed luxury apartments, private villas, and residential plots in India's most sought-after neighbourhoods."
         breadcrumbs={[{ label: 'Home', href: '/' }]}
-        bgImage="https://images.unsplash.com/photo-1613492390611-a14a3a0fc6f6?auto=format&fit=crop&w=2400&q=80"
+        bgImage="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=2400&q=80"
       />
 
       {/* Property Categories Grid */}
@@ -71,7 +71,7 @@ export function ResidentialPage() {
               {
                 title: 'Villas & Mansions',
                 desc: 'Expansive private lawns, gated community security, and bespoke personal spaces.',
-                image: 'https://images.unsplash.com/photo-1600596542815-0515304f0ba6?auto=format&fit=crop&w=800&q=80',
+                image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80',
                 count: '15+ Available',
               },
               {
@@ -83,7 +83,7 @@ export function ResidentialPage() {
               {
                 title: 'Ready-to-Move',
                 desc: 'Immediate occupancy homes with completed finishes and validated Occupancy Certificates.',
-                image: 'https://images.unsplash.com/photo-1600585154526-990dced4750f?auto=format&fit=crop&w=800&q=80',
+                image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80',
                 count: '25+ Turnkey',
               },
             ].map((cat, i) => (

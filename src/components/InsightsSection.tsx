@@ -13,7 +13,7 @@ const ARTICLES = [
     category: 'Property Buying Guides',
     title: 'A First-Time Buyer\'s Guide to Informed Decisions',
     readTime: '7 min read',
-    image: 'https://images.unsplash.com/photo-1568605114967-8130fc81cb94?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80',
   },
   {
     category: 'Investment Insights',

@@ -57,7 +57,7 @@ export function HomePage() {
               {
                 title: 'Commercial Spaces',
                 subtitle: 'Corporate Offices, IT Parks & Retail Shops',
-                image: 'https://images.unsplash.com/photo-1486406146926-c6cafa27b0fc?auto=format&fit=crop&w=1000&q=80',
+                image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80',
                 link: '/commercial',
                 count: 'Cyber City & Golf Course Rd',
               },

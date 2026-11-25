@@ -15,14 +15,14 @@ const LOCATIONS = [
     name: 'Golf Course Extension Road, Gurugram',
     desc: 'Premier ultra-luxury residential and corporate boulevard featuring top developer communities, international schools, and fine dining.',
     categories: 'Independent Mansions · Grade A Offices',
-    image: 'https://images.unsplash.com/photo-1567521464026-f4e5346411c0?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
     status: 'Active Corridor',
   },
   {
     name: 'Dwarka Expressway & Cyber Belts, Gurugram',
     desc: 'The fastest-growing urban expressway corridor in Delhi-NCR offering immediate connectivity to IGI Airport Terminal 3 and major tech parks.',
     categories: 'Ready-to-Move Condos · High-Yield Commercial',
-    image: 'https://images.unsplash.com/photo-1486406146926-c6cafa27b0fc?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80',
     status: 'Active Corridor',
   },
 ];

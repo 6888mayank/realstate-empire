@@ -22,14 +22,14 @@ const CATEGORIES = [
     description:
       'Spacious private residences designed for comfort, privacy and timeless architectural appeal.',
     image:
-      'https://images.unsplash.com/photo-1600596542815-0515304f0ba6?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Commercial Properties',
     description:
       'Strategic commercial assets positioned for visibility, accessibility and long-term value.',
     image:
-      'https://images.unsplash.com/photo-1486406146926-c6cafa27b0fc?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Office Spaces',

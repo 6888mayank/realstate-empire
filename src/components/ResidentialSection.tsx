@@ -9,11 +9,11 @@ const RESIDENTIAL = [
   },
   {
     title: 'Premium Residences',
-    image: 'https://images.unsplash.com/photo-1600596542815-0515304f0ba6?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=80',
   },
   {
     title: 'Villas',
-    image: 'https://images.unsplash.com/photo-1613492390611-a14a3a0fc6f6?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1000&q=80',
   },
   {
     title: 'Independent Homes',
@@ -25,7 +25,7 @@ const RESIDENTIAL = [
   },
   {
     title: 'Ready-to-Move Properties',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4750f?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=80',
   },
 ];
 
