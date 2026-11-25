@@ -48,6 +48,7 @@ const NAV_ITEMS: NavItem[] = [
   },
   { label: 'Locations', href: '/locations' },
   { label: 'Insights', href: '/insights' },
+  { label: 'Careers', href: '/careers' },
   { label: 'Contact', href: '/contact' },
 ];
 

@@ -11,6 +11,8 @@ import { InvestmentPage } from '@/pages/InvestmentPage';
 import { LocationsPage } from '@/pages/LocationsPage';
 import { InsightsPage } from '@/pages/InsightsPage';
 import { ContactPage } from '@/pages/ContactPage';
+import { CareersPage } from '@/pages/CareersPage';
+import { HrPortalPage } from '@/pages/HrPortalPage';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path="/investment" element={<InvestmentPage />} />
             <Route path="/locations" element={<LocationsPage />} />
             <Route path="/insights" element={<InsightsPage />} />
+            <Route path="/careers" element={<CareersPage />} />
+            <Route path="/careers/hr-portal" element={<HrPortalPage />} />
             <Route path="/contact" element={<ContactPage />} />
             {/* Fallback route */}
             <Route path="*" element={<Navigate to="/" replace />} />

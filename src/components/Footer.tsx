@@ -8,6 +8,7 @@ const COLUMNS = [
     title: 'Company',
     links: [
       { label: 'About Us', href: '/about' },
+      { label: 'Careers & Hiring', href: '/careers' },
       { label: 'Why Choose Us', href: '/about' },
       { label: 'Client Journey', href: '/about' },
       { label: 'Contact Us', href: '/contact' },
