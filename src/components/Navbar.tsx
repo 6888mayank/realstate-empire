@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown, ArrowRight } from 'lucide-react';
+import { BrandLogo } from '@/components/BrandLogo';
 
 type NavItem = {
   label: string;
@@ -50,28 +51,6 @@ const NAV_ITEMS: NavItem[] = [
   { label: 'Contact', href: '/contact' },
 ];
 
-function Logo() {
-  return (
-    <Link to="/" className="flex items-center gap-3 group">
-      <svg width="40" height="40" viewBox="0 0 64 64" fill="none" className="shrink-0 transition-transform group-hover:scale-105">
-        <path
-          d="M20 44V26l6-4v22h-6zm9 0V20l6-4v28h-6zm9 0V30l6 4v10h-6z"
-          fill="#E0B064"
-        />
-        <rect x="15" y="44" width="34" height="3" rx="1.5" fill="#E0B064" />
-      </svg>
-      <div className="leading-none">
-        <div className="font-serif text-xl tracking-wide text-ivory group-hover:text-gold-200 transition-colors">
-          AVYAAVATI
-        </div>
-        <div className="mt-1 text-[9px] font-medium uppercase tracking-widest text-mist/70">
-          Realtors Private Limited
-        </div>
-      </div>
-    </Link>
-  );
-}
-
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -109,10 +88,10 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-8xl items-center justify-between px-5 lg:px-10">
         <div className="flex items-center gap-5">
-          <Logo />
-          <div className="hidden h-8 w-px bg-gold-300/30 lg:block" />
-          <div className="hidden text-[10px] font-semibold uppercase tracking-widest text-gold-300 lg:block">
-            Trust, Transparency &amp; Value
+          <BrandLogo variant="navbar" />
+          <div className="hidden h-8 w-px bg-gold-300/30 xl:block" />
+          <div className="hidden text-[10px] font-semibold uppercase tracking-widest text-gold-300 xl:block">
+            Fostering Trust, Transparency &amp; Value
           </div>
         </div>
 

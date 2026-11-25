@@ -19,6 +19,14 @@ export const PROPERTY_TYPES: PropertyType[] = [
   'Ready-to-Move Properties',
 ];
 
+export const BRAND_INFO = {
+  name: 'AVYAAVATI REALTORS',
+  legalName: 'AVYAAVATI REALTORS PRIVATE LIMITED',
+  tagline: 'Fostering Trust, Transparency & Value',
+  segments: 'Residential | Commercial | Industrial',
+  motto: 'Fostering Trust, Transparency and Value',
+} as const;
+
 export const CORPORATE_OFFICE = {
   flatNo: 'Flat No. 204',
   tower: 'Tower B2',

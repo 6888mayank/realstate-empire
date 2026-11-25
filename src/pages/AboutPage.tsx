@@ -29,10 +29,14 @@ export function AboutPage() {
                   className="h-[34rem] w-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-8 -right-6 hidden rounded-2xl border border-navy-700 bg-navy-900 p-8 text-ivory shadow-2xl sm:block">
-                <div className="font-serif text-5xl text-gold-gradient">100%</div>
-                <div className="mt-2 max-w-[12rem] text-xs font-semibold uppercase tracking-widest text-mist">
-                  Commitment to Transparent Real Estate Guidance
+              <div className="absolute -bottom-8 -right-6 hidden rounded-2xl border border-navy-700 bg-navy-900/95 p-6 text-ivory shadow-2xl sm:flex flex-col items-center text-center backdrop-blur-md max-w-xs">
+                <img
+                  src="/logo-gold.png"
+                  alt="AVYAAVATI REALTORS"
+                  className="h-20 w-auto object-contain drop-shadow-[0_4px_16px_rgba(224,176,100,0.3)]"
+                />
+                <div className="mt-2 text-[10px] font-semibold uppercase tracking-widest text-gold-300">
+                  Fostering Trust, Transparency &amp; Value
                 </div>
               </div>
             </Reveal>

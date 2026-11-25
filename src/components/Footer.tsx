@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Linkedin, Facebook, ArrowRight, MapPin } from 'lucide-react';
 import { CORPORATE_OFFICE } from '@/data/constants';
+import { BrandLogo } from '@/components/BrandLogo';
 
 const COLUMNS = [
   {
@@ -75,18 +76,7 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-12">
           {/* Brand */}
           <div className="lg:col-span-5">
-            <Link to="/" className="flex items-center gap-3">
-              <svg width="40" height="40" viewBox="0 0 64 64" fill="none">
-                <path d="M20 44V26l6-4v22h-6zm9 0V20l6-4v28h-6zm9 0V30l6 4v10h-6z" fill="#E0B064" />
-                <rect x="15" y="44" width="34" height="3" rx="1.5" fill="#E0B064" />
-              </svg>
-              <div className="leading-none">
-                <div className="font-serif text-xl tracking-wide">AVYAAVATI</div>
-                <div className="mt-1 text-[9px] font-medium uppercase tracking-widest text-mist/70">
-                  Realtors Private Limited
-                </div>
-              </div>
-            </Link>
+            <BrandLogo variant="footer" />
 
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-mist">
               Creating meaningful real estate experiences through transparency, professional
@@ -95,7 +85,7 @@ export function Footer() {
 
             <div className="mt-4 inline-block rounded-lg border-l-2 border-gold-300 bg-navy-800/60 px-4 py-2">
               <span className="text-xs font-semibold uppercase tracking-widest text-gold-300">
-                Trust, Transparency &amp; Value
+                Fostering Trust, Transparency &amp; Value
               </span>
             </div>
 

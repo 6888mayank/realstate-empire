@@ -1,5 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#101C2C"/>
-  <path d="M20 44V26l6-4v22h-6zm9 0V20l6-4v28h-6zm9 0V30l6 4v10h-6z" fill="#E0B064"/>
-  <rect x="15" y="44" width="34" height="3" rx="1.5" fill="#E0B064"/>
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E0A3" />
+      <stop offset="35%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA771C" />
+      <stop offset="100%" stop-color="#6B4708" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Roofline Chevron -->
+  <path d="M50 12 L84 58 L75 64 L50 25 L25 64 L16 58 Z" fill="url(#gold-grad)" />
+  
+  <!-- Inner Roofline Chevron -->
+  <path d="M50 28 L72 61 L64 66 L50 42 L36 66 L28 61 Z" fill="url(#gold-grad)" />
+  
+  <!-- Central Leaves (3 leaves) -->
+  <!-- Center Leaf -->
+  <path d="M50 48 C46 54 46 62 50 67 C54 62 54 54 50 48 Z" fill="url(#gold-grad)" />
+  <!-- Left Leaf -->
+  <path d="M48 58 C42 56 38 60 40 66 C45 66 48 62 48 58 Z" fill="url(#gold-grad)" />
+  <!-- Right Leaf -->
+  <path d="M52 58 C58 56 62 60 60 66 C55 66 52 62 52 58 Z" fill="url(#gold-grad)" />
+  <!-- Stem -->
+  <path d="M49 67 L51 67 L51 72 L49 72 Z" fill="url(#gold-grad)" />
 </svg>

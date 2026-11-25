@@ -1,7 +1,7 @@
 # AVYAAVATI REALTORS PRIVATE LIMITED
 
-> **Trust, Transparency & Value**  
-> Premium Real Estate Advisory, Residential Homes, Commercial Spaces & Capital Investment Opportunities.
+> **Fostering Trust, Transparency & Value**  
+> Residential | Commercial | Industrial Real Estate Advisory, Luxury Homes & Capital Investment Opportunities.
 
 ---
 

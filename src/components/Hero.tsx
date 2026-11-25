@@ -84,13 +84,19 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-8xl flex-col justify-center px-5 pt-28 lg:px-10">
         <div className="max-w-2xl">
-          {/* Intro with gold lines */}
-          <div className="animate-fade-in flex items-center gap-4 opacity-0" style={{ animationDelay: '0.2s' }}>
-            <span className="h-px w-10 bg-gold-300" />
-            <span className="text-xs font-semibold uppercase tracking-widest text-gold-300">
-              Welcome to AVYAAVATI Realtors
-            </span>
-            <span className="h-px w-10 bg-gold-300" />
+          {/* Intro with gold emblem & lines */}
+          <div className="animate-fade-in flex items-center gap-3.5 opacity-0" style={{ animationDelay: '0.2s' }}>
+            <img
+              src="/logo-symbol.png"
+              alt="AVYAAVATI Emblem"
+              className="h-10 w-10 object-contain drop-shadow-[0_2px_12px_rgba(224,176,100,0.4)]"
+            />
+            <div className="flex items-center gap-2">
+              <span className="h-px w-6 bg-gold-300" />
+              <span className="text-xs font-semibold uppercase tracking-widest text-gold-300">
+                AVYAAVATI REALTORS • GURUGRAM
+              </span>
+            </div>
           </div>
 
           {/* Main heading */}
@@ -104,12 +110,14 @@ export function Hero() {
             <span className="italic text-gold-gradient">Vision.</span>
           </h1>
 
-          {/* Tagline */}
+          {/* Tagline matching official logo */}
           <div
-            className="animate-fade-up mt-6 text-sm font-semibold uppercase tracking-widest text-gold-300 opacity-0"
+            className="animate-fade-up mt-6 flex flex-wrap items-center gap-3 text-sm font-semibold uppercase tracking-widest text-gold-300 opacity-0"
             style={{ animationDelay: '0.6s' }}
           >
-            Trust, Transparency &amp; Value
+            <span>Fostering Trust, Transparency &amp; Value</span>
+            <span className="hidden sm:inline text-gold-400/40">•</span>
+            <span className="text-xs text-mist font-medium tracking-wider">Residential | Commercial | Industrial</span>
           </div>
 
           {/* Supporting paragraph */}
