@@ -139,7 +139,6 @@ export function CareersPage() {
             </span>
           </div>
           <div className="flex items-center gap-4 text-xs">
-            <span className="text-gold-300 font-medium">Direct HR Desk: {HR_CONFIG.applicationEmail}</span>
             <Link
               to="/careers/hr-portal"
               className="inline-flex items-center gap-1.5 rounded-full border border-gold-300/30 bg-navy-800/80 px-3 py-1 text-[11px] font-semibold text-gold-300 hover:border-gold-300 hover:bg-gold-300/10"
@@ -359,8 +358,7 @@ export function CareersPage() {
                   <span className="text-gold-300 font-medium">
                     {selectedJob?.title || 'General Speculative Application'}
                   </span>{' '}
-                  and your Google Drive resume have been recorded and forwarded to our HR desk at{' '}
-                  <strong>{HR_CONFIG.applicationEmail}</strong>.
+                  and your Google Drive resume have been recorded and forwarded to our Corporate HR Desk.
                 </p>
                 <div className="mt-6 rounded-xl border border-navy-700 bg-navy-800/80 p-4 text-xs text-mist text-left max-w-md mx-auto space-y-1.5">
                   <div>
@@ -375,8 +373,8 @@ export function CareersPage() {
                     </a>
                   </div>
                   <div>
-                    <span className="text-gold-300 font-medium">Recipient HR:</span>{' '}
-                    Rahul Tripathi ({HR_CONFIG.applicationEmail})
+                    <span className="text-gold-300 font-medium">Recipient Desk:</span>{' '}
+                    Corporate Talent Acquisition &amp; HR Desk
                   </div>
                 </div>
                 <button
@@ -396,8 +394,7 @@ export function CareersPage() {
                     {selectedJob ? selectedJob.title : 'Submit Your Candidacy'}
                   </h3>
                   <p className="mt-1 text-xs text-mist">
-                    Applications are forwarded directly to Rahul Tripathi at{' '}
-                    <span className="text-gold-300">{HR_CONFIG.applicationEmail}</span>.
+                    Applications and resume links are reviewed directly by our Talent Acquisition Team.
                   </p>
                 </div>
 
@@ -510,7 +507,7 @@ export function CareersPage() {
 
                   <div className="pt-2 flex items-center justify-between gap-4">
                     <span className="text-[11px] text-mist/60">
-                      Dispatched to: {HR_CONFIG.applicationEmail}
+                      Dispatched to Corporate HR Desk
                     </span>
                     <button
                       type="submit"
